@@ -1,0 +1,175 @@
+/*etilo geral do site*/
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 100;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+  justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+.contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00BFFF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+  transition: .2s;
+    
+}
+/*estilo dos titulos*/
+h2.titulo{
+    color: #00BFFF;
+    font-size: 41px;
+  text-align: center;
+ 
+}
+/*estilo do menu*/
+header {
+    padding: 40px 4%;
+}
+ 
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aqua;
+}
+header a{
+    color: white;
+text-decoration: none;
+transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.4);
+    display: inline-block;
+    
+}
+
+header nav ul{
+list-style-type:none;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px ;
+  
+}
+
+button:hover{
+    box-shadow: 0px 8px 0px;
+    transform: scale(1.09);
+}
+section .topo-do-site{
+    padding: 40px 4%;
+
+}
+.topo-do-site .bt-redes-s button{
+width: 60px;
+height: 60px;
+border-radius: 30px;
+border: 0;
+background-color: #00BFFF;
+font-size: 27px;
+cursor: pointer;
+margin: 0 15px;
+transition: .2s;
+}
+
+ 
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.topo-do-site h1 samp{
+    color: #00BFFF;
+    font-size: 76px;
+}
+
+.topo-do-site.topo-do-site p{
+    color: white;
+    margin: 30px 0px;
+    font-size: 18px;
+  max-height: 500px;
+}
+
+/*estilo sobre mim*/
+
+section .sobre{
+    padding: 90px 4%;
+height: 50vh;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+    
+}
+
+.sobre .txt-sobre h1{
+font-size: 40px;
+line-height: 40px;
+margin-bottom: 20px;
+
+}
+
+.sobre .txt-sobre h1 samp{
+    color: #00BFFF;
+display: block;
+}
+
+.sobre .txt-sobre p{
+margin: 28px 0;
+text-align: justify;
+}
+/*estilo curso*/
+section.portfoliocurso{
+    padding: 100px 4%;
+ 
+}
+
+section.portfoliocurso .flex{
+   justify-content: space-around;
+  
+}
+
+.img-curs{
+    width: 362px;
+    height: 461px;
+    background-size: cover;
+background-position: 100% 0;
+border-radius: 22px;
+ }
+
+
